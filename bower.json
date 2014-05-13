@@ -1,0 +1,22 @@
+{
+  "name": "AngularJS - Introducción",
+  "version": "0.0.0",
+  "authors": [
+    "Isaac Zepeda <keogh24@gmail.com>"
+  ],
+  "description": "Código del videotutorial de Introducción a AngularJS",
+  "license": "MIT",
+  "homepage": "http://topicfly.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "bootstrap": "~3.1.1"
+  }
+}
