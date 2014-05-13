@@ -4,8 +4,8 @@
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
-<body>
-  <div class="container">
+<body ng-app="TodoApp">
+  <div class="container" ng-controller="MainCtrl">
     <div class="page-header">
       <h1>Lista de Tareas - TopicFly</h1>
     </div>
@@ -15,13 +15,9 @@
         <div class="col-md-6">
           
           <ul class="list-group">
-            <li class="list-group-item">
-              <input type="checkbox">
-              Tarea 1
-            </li>
-            <li class="list-group-item">
-              <input type="checkbox">
-              Tarea 1
+            <li class="list-group-item" ng-repeat="item in items">
+              <input type="checkbox" ng-model="item.done">
+              <span ng-class="{crossed: item.done}">{{item.name}}</span>
             </li>
           </ul>
         
@@ -31,10 +27,10 @@
       <div class="row">
         <form>
           <div class="col-md-4">
-            <input type="text" placeholder="Nueva Tarea" class="form-control">
+            <input type="text" placeholder="Nueva Tarea" class="form-control" ng-model="itemName">
           </div>
           <div class="col-md-2">
-            <input type="submit" value="Agregar" class="form-control btn btn-primary">
+            <input type="submit" value="Agregar" class="form-control btn btn-primary" ng-click="addItem()">
           </div>
         </form>
       </div>
