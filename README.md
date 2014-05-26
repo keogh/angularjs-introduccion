@@ -1,4 +1,4 @@
-Código de preparación (boilerplate) para el videotutorial: [AngularJS - Introducción](http://topicfly.io/videos/3-angularjs-introduccion).
+Código terminado para el videotutorial: [AngularJS - Introducción](http://topicfly.io/videos/3-angularjs-introduccion).
 
 ## Explicación
 
@@ -15,5 +15,5 @@ $ bower installl
 
 Este proyecto contiene algunos branches
 
-* ```boilerplate```: Código de preparación (actualmente)
-* ```angularjs-introduccion```: Código terminado del videotutorial [AngularJS - Introducción](http://topicfly.io/videos/3-angularjs-introduccion).
+* ```boilerplate```: Código de preparación.
+* ```angularjs-introduccion```: Código terminado del videotutorial [AngularJS - Introducción](http://topicfly.io/videos/3-angularjs-introduccion) (branch actual).
