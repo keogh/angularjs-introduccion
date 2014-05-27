@@ -7,7 +7,6 @@ Este proyecto es usado en algunos videotutoriales de [TopicFly](http://topicfly.
 ## Instalación
 
 ```
-$ npm install
 $ bower installl
 ```
 
